@@ -5,7 +5,7 @@
 <title>Practica 6e</title>
 <meta name="keywords" content="website template" />
 <meta name="description" content="Layout" />
-<link href="" rel="stylesheet" type="text/css" />
+<link href="estilos.css" rel="stylesheet" type="text/css" />
 <!--  Slimbox Credit Link | http://www.digitalia.be/software/slimbox2  -->
 <link rel="stylesheet" href="slimbox/slimbox2.css" type="text/css" media="screen" />
 <script type="text/javascript" src="slimbox/jquery.min.js"></script>
@@ -21,14 +21,27 @@ function clearText(field)
 </head>
 <body>
    
+   <!-- contenedor -->
+   <div class="wrapper">
+
+        <!-- cabecera -->
+        <div class="cabecera">
+            <!-- logo -->
+            <div class="logo">
             	<h1>Magazine Style</h1>
                 <h2>new way of thinking for your life</h2>
+            </div>
+            <!-- fin logo -->  
+            <!-- busqueda --> 
+            <div class="search">   
            	  <a href="#"><img src="images/rss_icon_28x28.png" alt="RSS Feed" border="0" /></a>
             	<form action="index.html" method="post">
     	            	<input type="text" value="Search" id="textfield" onfocus="clearText(this)" onblur="clearText(this)"/>
         	            <input type="submit" name="Search" value="Search" alt="Search" id="button" title="Search" />
 			  </form>
-                
+            </div>
+            <!-- fin busqueda -->
+
        		  		<ul>
 		                <li><a href="index.html"  class="current">Home</a></li>
         		        <li><a href="#">Articles</a></li>
@@ -39,9 +52,14 @@ function clearText(field)
                         <li><a href="#">Contact</a></li>   
               		</ul> 
             
-		
-   
-            
+		</div>
+        <!-- fin cabecera -->
+        
+        <!-- area_de_contenido -->
+
+        <div class="area_de_contenido">
+            <!-- left_section -->
+            <div class="left_section">
                	  <div >Post title one goes here</div>
                     <div >
 						<p><img alt="templatesfree" src="images/thumb_7.jpg" />This is a FREE CSS template provided by <a href="http://www.templatesfree.com" target="_parent">Free CSS Templates</a>. You may download, edit and use this template layout for your websites. Credits:  <a href="http://www.photovaco.com" target="_blank">Free Photos</a> for photos and <a href="http://www.digitalia.be/software/slimbox2" target="_blank">Digitalia.be</a> for slimbox2.</p> 						
@@ -86,11 +104,11 @@ function clearText(field)
                         <span class="post">Posted on 19:18, 13 November 2024</span>
                     </div>
                 </div>
-
+            </div>
+            <!-- fin left_section -->
             
-            
-  
-            
+            <!-- middle_section -->
+            <div class="middle_section">
             	<div>
                 	<h1>Categories</h1>
                 	<ul>
@@ -143,10 +161,11 @@ function clearText(field)
 					<li><a href="#">Pellentesque leo lacus</a></li>
 				</ul>
                 </div>
-            
-            
+            </div>
+            <!-- final middle_section -->
          
-            
+            <!-- rigth_section -->         
+            <div class="rigth_section">
             	<div>
                 	<h1>Popular Posts</h1>
                     <h2><a href="#">Quisque dictum pharetra neque</a></h2>
@@ -192,13 +211,19 @@ function clearText(field)
                 	<a href="#"><img src="images/ads.jpg" alt="Advertisement" border="0" /></a>
                 </div>
                 
-  
-            
-			<div class="cleaner_with_height">&nbsp;</div>
-        <div>
-        	Copyright © 2024 Your Company Name | Designed by <a href="http://www.templatesfree.com" target="_parent">Free CSS Templates</a>
         </div>
-      
+        <!-- final rigth_section -->
+                <div class="cleaner_with_height">&nbsp;</div>
+    </div>
+
+    <!-- fin area_de_contenido -->
+
+    <!-- footer -->
+    <div class="footer">
+            Copyright © 2024 Your Company Name | Designed by <a href="http://www.templatesfree.com" target="_parent">Free CSS Templates</a>
+    </div>
+    <!-- fin footer -->
+</div>
 </body>
  
 </html>
