@@ -15,13 +15,64 @@ a:hover{color: #666;}
 
 .wrapper{margin: 0 auto; width:950px;}
 
-.cabecera
-.logo{float: left;width: 385px;height: 55px;}
-.search{float: right;width: 320px;height: 70px;}
-.menu
-.area_de_contenido{margin-top: 30px;margin-bottom: 10px;}
-.left_section{width: 410px; float: left;}
-.middle_section{width: 180px;float: left; margin:0px 10px 0px 10px;}
-.rigth_section{width: 322px; float: left;}
-.cleaner_with_height{clear: both;}
-.footer
+.cabecera{}
+.logo{
+	float: left;
+	width: 385px;
+	height: 55px;}
+.search{
+	float: right;
+	width: 320px;
+	height: 70px;}
+.menu{}
+.area_de_contenido{
+	margin-top: 30px;
+	margin-bottom: 10px;}
+.left_section{
+	width: 410px; 
+	float: left;}
+.middle_section{
+	width: 180px;
+	float: left; 
+	margin:0px 10px 0px 10px;}
+.rigth_section{
+	width: 322px; 
+	float: left;}
+.cleaner_with_height{
+	clear: both;}
+.footer{}
+.rigth_section_box{
+	margin-bottom: 15px;
+	padding: 10px 10px 10px 10px;
+	border:solid #ccc 1px;}
+.rigth_section_box h1{
+	color: #c60; 
+	text-decoration: underline; 
+	font-size: 15px;
+	margin: 0 0 8px 0; 
+	padding: 0 0 0 0;}
+.rigth_section_box h2{
+	color: #333; 
+	font-size: 11px;
+	margin: 0 0 0 0; 
+	padding: 0 0 0 0;}
+.rigth_section_box h2 a{
+	text-decoration: none;}
+.rigth_section_box h2 a:hover{
+	text-decoration: underline;}
+.rigth_section_box p{
+	color: #333;
+	text-align: justify;
+	font-size: 11px;
+	margin:0 0 20px 0;
+	padding: 0 0 0 0;}
+.galeria{
+	margin-left: 5px;
+}
+.galeria img{
+	margin: 5px 5px 0 0;
+}
+
+#anuncio{
+	margin: 5px 0 5px 0;
+}
