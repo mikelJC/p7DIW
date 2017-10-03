@@ -76,3 +76,48 @@ a:hover{color: #666;}
 #anuncio{
 	margin: 5px 0 5px 0;
 }
+
+.left_section_box{
+	margin: 0 0 15px 0;
+}
+
+.box_contenido{
+	width: 380px;
+	padding: 0 15px 0 0;
+}
+
+.box_contenido img{
+	float: left;
+	border: none;
+	margin: 0 13px 10px 0;
+	display: inline;
+}
+
+.box_cabecera{
+	width: 395px;
+	height: 20px;
+	background-image: url("images/box_top.jpg");
+	background-repeat: repeat-x;
+	font-weight: bold;
+	font-size: 16px;
+	color: #666;
+	padding: 10px 0 0 15px;
+}
+
+.post{
+	margin-top: 25px;
+	color: #c60;
+	font-size: 11px; 
+}
+
+.post a{
+	color: #c60;
+	text-decoration: none;
+}
+
+.post a:hover{
+	text-decoration: underline;
+}
+.cleaner{
+	clear: both;
+}
