@@ -21,11 +21,9 @@ function clearText(field)
 </head>
 <body>
    
-   <!-- contenedor -->
-   <div class="wrapper">
-
         <!-- cabecera -->
-        <div class="cabecera">
+    <div class="cabecera">
+       	<div class="wrapper">
             <!-- logo -->
             <div class="logo">
             	<h1>Magazine Style</h1>
@@ -35,14 +33,14 @@ function clearText(field)
             <!-- busqueda --> 
             <div class="search">   
            	  <a href="#"><img src="images/rss_icon_28x28.png" alt="RSS Feed" border="0" /></a>
-            	<form action="index.html" method="post">
+              <form action="index.html" method="post">
     	            	<input type="text" value="Search" id="textfield" onfocus="clearText(this)" onblur="clearText(this)"/>
         	            <input type="submit" name="Search" value="Search" alt="Search" id="button" title="Search" />
 			  </form>
             </div>
             <!-- fin busqueda -->
-
-       		  		<ul>
+				<div class="menu">       		  		
+					<ul>
 		                <li><a href="index.html"  class="current">Home</a></li>
         		        <li><a href="#">Articles</a></li>
 		                <li><a href="#">Popular</a></li>
@@ -51,12 +49,13 @@ function clearText(field)
                 		<li><a href="#">About Us</a></li>  
                         <li><a href="#">Contact</a></li>   
               		</ul> 
-            
-		</div>
+              </div>
+        </div>    
+	</div>
         <!-- fin cabecera -->
         
         <!-- area_de_contenido -->
-
+	<div class="wrapper">
         <div class="area_de_contenido">
             <!-- left_section -->
             <div class="left_section">
@@ -111,16 +110,14 @@ function clearText(field)
             
             <!-- middle_section -->
             <div class="middle_section">
-            	<div>
+            	<div class="middle_section_box">
                 	<h1>Categories</h1>
                 	<ul>
                     	<li><a href="#">Aliquam posuere</a></li>
 						<li><a href="#">Donec mattis rhoncus m</a></li>
 						<li><a href="#">Ipsum dolor sit amet</a></li>
 						<li><a href="#">Aliquam erat arcu</a></li>
-						<li><a href="#">Mauris congue felis at nisi</a></li>
-                        
-                        <li>&nbsp;</li>
+						<li class="last"><a href="#">Mauris congue felis at nisi</a></li>
 
 						<li><a href="#">Pellentesque leo lacus</a></li>
 						<li><a href="#">Rhoncus nec, consequat ac</a></li>
@@ -130,15 +127,15 @@ function clearText(field)
 					</ul>
                 </div>
                 
-                <div>
+                <div class="middle_section_box">
                		<h1>Recent Posts</h1>
                 	<ul>
                     	<li><a href="#">Rhoncus nec, consequat ac</a></li>
 						<li><a href="#">Lorem ipsum dolor sit amet</a></li>
 						<li><a href="#">Consectetur adipiscing eli</a></li>
 						<li><a href="#">Nulla et nunc commodo</a></li>
-						<li><a href="#">Aliquam posuere</a></li>
-						<li>&nbsp;</li>
+						<li class="" ="last"><a href="#">Aliquam posuere</a></li>
+
 						<li><a href="#">Donec mattis rhoncus</a></li>
 						<li><a href="#">Pellentesque leo lacus</a></li>
 						<li><a href="#">Ipsum dolor sit amet</a></li>
@@ -147,15 +144,15 @@ function clearText(field)
 					</ul>
                 </div>
                 
-                <div>
+                <div class="middle_section_box">
                 <h1>Website Links</h1>
                 <ul>
                 	<li><a href="http://www.flashmo.com" target="_blank">Free Flash Templates</a></li>
 					<li><a href="http://www.templatesfree.com" target="_parent">CSS Web Templates</a></li>
 					<li><a href="http://www.photovaco.com" target="_blank">Royalty Free Photos</a></li>
 					<li><a href="http://www.webdesignmo.com" target="_blank">Web Design Blog</a></li>
-					<li><a href="http://www.flashmo.com/store" target="_blank">Premium Templates</a></li>
-					<li>&nbsp;</li>
+					<li class="last"><a href="http://www.flashmo.com/store" target="_blank">Premium Templates</a></li>
+
 					<li><a href="#">Nulla et nunc commodo</a></li>
 					<li><a href="#">Aliquam posuere</a></li>
 					<li><a href="#">Rhoncus nec, consequat ac</a></li>
@@ -205,16 +202,18 @@ function clearText(field)
         </div>
         <!-- final rigth_section -->
                 <div class="cleaner_with_height">&nbsp;</div>
-    </div>
-
+    	</div>
+	</div>
     <!-- fin area_de_contenido -->
 
     <!-- footer -->
     <div class="footer">
+    	<div class="wrapper">
             Copyright © 2024 Your Company Name | Designed by <a href="http://www.templatesfree.com" target="_parent">Free CSS Templates</a>
+        </div>
     </div>
     <!-- fin footer -->
-</div>
+
 </body>
  
 </html>
