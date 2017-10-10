@@ -87,9 +87,17 @@ height: 28px; color: #999; background: #fff; margin: 0 0 0 0; padding-bottom:
 .menu{
 	height: 38px;
 	float: left;
-	margin: 9px 0 0 0;
+	margin: 21px 0 0 0;
 	padding: 0;
 }
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
 .menu > ul > li{
 	list-style: none;
 	margin:0;
