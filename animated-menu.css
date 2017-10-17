@@ -1,0 +1,42 @@
+#animated-menu{
+	position: absolute;
+	margin:121px auto 0 auto;
+}
+
+#animated-menu ul{
+	margin:0;
+	padding:0;
+	width: 950px;
+}
+
+#animated-menu li{
+	width:100px;
+	height:50px;
+	float:left;
+	color:#191919;
+	text-align:center;
+	overflow:hidden;
+	height: 34px;
+	width: 121px;
+}
+
+#animated-menu li > ul li {
+	float: none;
+}
+
+#animated-menu a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+#animated-menu p{
+	padding:0px 5px;
+}
+
+	.subtext{
+		padding-top:15px;
+	}
+
+/*Menu Color Classes*/
+
+.yellow{background:#FBC700;}
