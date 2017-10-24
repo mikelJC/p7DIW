@@ -1,6 +1,7 @@
 #animated-menu{
 	position: absolute;
 	margin:121px auto 0 auto;
+	z-index: 5;
 }
 
 #animated-menu ul{
