@@ -13,7 +13,7 @@ body{
 a{color: #333;}
 a:hover{color: #666;}
 
-.wrapper{margin: 0 auto; width:950px;}
+.wrapper{margin: 0 auto; width:950px; position: relative;}
 
 .cabecera{
 	width: 100%;
@@ -52,7 +52,6 @@ a:hover{color: #666;}
 	float: right;
 	width: 320px;
 	height: 70px;
-	margin-top: 30px;
 	margin-right: 20px;
 }
 
@@ -261,3 +260,31 @@ height: 28px; color: #999; background: #fff; margin: 0 0 0 0; padding-bottom:
 	padding: 20 0 0 0;
 	color: #666;
 }
+
+#icons{
+	float: right;
+}
+
+#icons li{
+	list-style: none;
+	display: inline-block;
+}
+
+#icons a{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+}
+
+
+
+#facebook{background-image: url("images/icons/facebook.png");}
+#facebook:hover{background-image: url("images/icons/facebook2.png");}
+#twitter{background-image: url("images/icons/twitter.png");}
+#twitter:hover{background-image: url("images/icons/twitter2.png");}
+#instagram{background-image: url("images/icons/instagram.png");}
+#instagram:hover{background-image: url("images/icons/instagram2.png");}
+#youtube{background-image: url("images/icons/youtube.png");}
+#youtube:hover{background-image: url("images/icons/youtube2.png");}
+#rss{background-image: url("images/icons/rss.png");}
+#rss:hover{background-image: url("images/icons/rss2.png");}
