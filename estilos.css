@@ -277,14 +277,17 @@ height: 28px; color: #999; background: #fff; margin: 0 0 0 0; padding-bottom:
 }
 
 
+/*antes las imágenes pesaban 40KB con sprite 8KB*/
 
-#facebook{background-image: url("images/icons/facebook.png");}
-#facebook:hover{background-image: url("images/icons/facebook2.png");}
-#twitter{background-image: url("images/icons/twitter.png");}
-#twitter:hover{background-image: url("images/icons/twitter2.png");}
-#instagram{background-image: url("images/icons/instagram.png");}
-#instagram:hover{background-image: url("images/icons/instagram2.png");}
-#youtube{background-image: url("images/icons/youtube.png");}
-#youtube:hover{background-image: url("images/icons/youtube2.png");}
-#rss{background-image: url("images/icons/rss.png");}
-#rss:hover{background-image: url("images/icons/rss2.png");}
+
+
+#facebook{background-image: url("images/icons/sprite.png"); background-position: -64px 0px;}
+#facebook:hover{background-image: url("images/icons/sprite.png"); background-position: -64px 32px;}
+#twitter{background-image: url("images/icons/sprite.png"); background-position: -32px 0px;}
+#twitter:hover{background-image: url("images/icons/sprite.png"); background-position: -32px 32px;}
+#instagram{background-image: url("images/icons/sprite.png"); background-position: -128px 0px;}
+#instagram:hover{background-image: url("images/icons/sprite.png"); background-position: -128px 32px;}
+#youtube{background-image: url("images/icons/sprite.png"); background-position: 0px 0px;}
+#youtube:hover{background-image: url("images/icons/sprite.png"); background-position: 0px 32px;}
+#rss{background-image: url("images/icons/sprite.png"); background-position: -96px 0px;}
+#rss:hover{background-image: url("images/icons/sprite.png"); background-position: -96px 32px;}
